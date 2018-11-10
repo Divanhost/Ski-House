@@ -50,7 +50,7 @@ namespace WS.Forms
         {
             string a = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             Bitmap t = new Bitmap("Images//" + a + ".jpg");
-            //   t.Size = new Size(64, 64);
+            //   t.Size = new Size(64, 64);dfsfsdfsdf
             t = new Bitmap(t, new Size(64, 64));
             pictureBox1.Image = t;
         }
